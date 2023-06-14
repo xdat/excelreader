@@ -1,0 +1,12 @@
+**/target/
+**/.settings/
+**/.~lock.*
+**/.idea/
+**/*.iml
+**/.DS_Store
+/bin/
+/.metadata/
+/.recommenders/
+.classpath
+.project
+.tern-project
