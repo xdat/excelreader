@@ -441,3 +441,397 @@ java.lang.OutOfMemoryError: Java heap space
 2023-06-03 23:13:49.929  INFO 1197373 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2023-06-03 23:13:49.930  INFO 1197373 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2023-06-03 23:13:49.931  INFO 1197373 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-09 12:21:52.515  INFO 3435254 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3435254 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:21:52.517  INFO 3435254 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:21:52.837  INFO 3435254 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:21:52.841  INFO 3435254 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:21:52.841  INFO 3435254 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:21:52.875  INFO 3435254 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:21:52.875  INFO 3435254 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 332 ms
+2024-03-09 12:21:53.004  INFO 3435254 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:21:53.010  INFO 3435254 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.657 seconds (JVM running for 1.03)
+2024-03-09 12:23:32.740  INFO 3435254 --- [http-nio-8626-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:23:32.740  INFO 3435254 --- [http-nio-8626-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:23:32.740  INFO 3435254 --- [http-nio-8626-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 12:23:32.753  WARN 3435254 --- [http-nio-8626-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'filename' for method parameter type String is not present]
+2024-03-09 12:23:40.408  WARN 3435254 --- [http-nio-8626-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'filename' for method parameter type String is not present]
+2024-03-09 12:24:21.741  WARN 3435254 --- [http-nio-8626-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'filename' for method parameter type String is not present]
+2024-03-09 12:28:36.367  INFO 3437514 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3437514 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:28:36.368  INFO 3437514 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:28:36.682  INFO 3437514 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:28:36.686  INFO 3437514 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:28:36.686  INFO 3437514 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:28:36.715  INFO 3437514 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:28:36.715  INFO 3437514 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 323 ms
+2024-03-09 12:28:36.846  INFO 3437514 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:28:36.850  INFO 3437514 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.642 seconds (JVM running for 0.99)
+2024-03-09 12:28:42.700  INFO 3437514 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:28:42.701  INFO 3437514 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:28:42.701  INFO 3437514 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 12:28:42.714  WARN 3437514 --- [http-nio-8626-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'filename' for method parameter type String is not present]
+2024-03-09 12:28:49.193  WARN 3437514 --- [http-nio-8626-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'filename' for method parameter type String is not present]
+2024-03-09 12:29:46.789  INFO 3437758 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3437758 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:29:46.791  INFO 3437758 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:29:47.103  INFO 3437758 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:29:47.107  INFO 3437758 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:29:47.107  INFO 3437758 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:29:47.136  INFO 3437758 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:29:47.136  INFO 3437758 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 323 ms
+2024-03-09 12:29:47.268  INFO 3437758 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:29:47.272  INFO 3437758 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.644 seconds (JVM running for 0.997)
+2024-03-09 12:29:51.924  INFO 3437758 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:29:51.924  INFO 3437758 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:29:51.924  INFO 3437758 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 12:29:51.936  WARN 3437758 --- [http-nio-8626-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'filename' for method parameter type String is not present]
+2024-03-09 12:30:34.482  INFO 3437888 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3437888 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:30:34.485  INFO 3437888 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:30:34.801  INFO 3437888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:30:34.805  INFO 3437888 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:30:34.805  INFO 3437888 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:30:34.834  INFO 3437888 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:30:34.834  INFO 3437888 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 324 ms
+2024-03-09 12:30:34.966  INFO 3437888 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:30:34.970  INFO 3437888 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.65 seconds (JVM running for 0.997)
+2024-03-09 12:30:40.131  INFO 3437888 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:30:40.131  INFO 3437888 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:30:40.132  INFO 3437888 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-09 12:30:40.144  WARN 3437888 --- [http-nio-8626-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'filename' for method parameter type String is not present]
+2024-03-09 12:30:45.284  WARN 3437888 --- [http-nio-8626-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'filename' for method parameter type String is not present]
+2024-03-09 12:30:54.038  WARN 3437888 --- [http-nio-8626-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'filename' for method parameter type String is not present]
+2024-03-09 12:30:54.715  WARN 3437888 --- [http-nio-8626-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'filename' for method parameter type String is not present]
+2024-03-09 12:30:54.877  WARN 3437888 --- [http-nio-8626-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'filename' for method parameter type String is not present]
+2024-03-09 12:37:24.974  INFO 3438692 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3438692 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:37:24.975  INFO 3438692 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:37:25.224  INFO 3438692 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:37:25.227  INFO 3438692 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:37:25.227  INFO 3438692 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:37:25.262  INFO 3438692 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:37:25.262  INFO 3438692 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 273 ms
+2024-03-09 12:37:25.366  WARN 3438692 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8626 is already in use
+2024-03-09 12:37:25.367  INFO 3438692 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-09 12:37:25.371  INFO 3438692 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-03-09 12:37:25.377 ERROR 3438692 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8626 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8626 or configure this application to listen on another port.
+
+2024-03-09 12:37:37.158  INFO 3438748 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3438748 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:37:37.159  INFO 3438748 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:37:37.470  INFO 3438748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:37:37.474  INFO 3438748 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:37:37.474  INFO 3438748 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:37:37.508  INFO 3438748 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:37:37.508  INFO 3438748 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 327 ms
+2024-03-09 12:37:37.645  INFO 3438748 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:37:37.648  INFO 3438748 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.653 seconds (JVM running for 1.006)
+2024-03-09 12:37:44.284  INFO 3438748 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:37:44.284  INFO 3438748 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:37:44.285  INFO 3438748 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-09 12:37:44.298  WARN 3438748 --- [http-nio-8626-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'filename' for method parameter type String is not present]
+2024-03-09 12:38:59.916  INFO 3439041 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3439041 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:38:59.918  INFO 3439041 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:39:00.234  INFO 3439041 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:39:00.238  INFO 3439041 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:39:00.238  INFO 3439041 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:39:00.266  INFO 3439041 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:39:00.266  INFO 3439041 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 326 ms
+2024-03-09 12:39:00.392  WARN 3439041 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8626 is already in use
+2024-03-09 12:39:00.393  INFO 3439041 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-09 12:39:00.398  INFO 3439041 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-03-09 12:39:00.404 ERROR 3439041 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8626 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8626 or configure this application to listen on another port.
+
+2024-03-09 12:39:08.561  INFO 3439114 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3439114 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:39:08.563  INFO 3439114 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:39:08.877  INFO 3439114 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:39:08.881  INFO 3439114 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:39:08.881  INFO 3439114 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:39:08.909  INFO 3439114 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:39:08.909  INFO 3439114 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 323 ms
+2024-03-09 12:39:09.037  WARN 3439114 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8626 is already in use
+2024-03-09 12:39:09.038  INFO 3439114 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-09 12:39:09.042  INFO 3439114 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-03-09 12:39:09.049 ERROR 3439114 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8626 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8626 or configure this application to listen on another port.
+
+2024-03-09 12:39:24.910  INFO 3439226 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3439226 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:39:24.911  INFO 3439226 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:39:25.226  INFO 3439226 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:39:25.230  INFO 3439226 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:39:25.230  INFO 3439226 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:39:25.260  INFO 3439226 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:39:25.260  INFO 3439226 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 324 ms
+2024-03-09 12:39:25.390  INFO 3439226 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:39:25.394  INFO 3439226 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.641 seconds (JVM running for 0.987)
+2024-03-09 12:39:29.362  INFO 3439226 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:39:29.362  INFO 3439226 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:39:29.362  INFO 3439226 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 12:39:29.422  WARN 3439226 --- [http-nio-8626-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character (''' (code 39)): was expecting double-quote to start field name; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character (''' (code 39)): was expecting double-quote to start field name<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 2, column: 3]]
+2024-03-09 12:40:18.652  INFO 3439449 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3439449 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:40:18.653  INFO 3439449 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:40:18.966  INFO 3439449 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:40:18.970  INFO 3439449 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:40:18.970  INFO 3439449 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:40:19.005  INFO 3439449 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:40:19.005  INFO 3439449 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 324 ms
+2024-03-09 12:40:19.134  INFO 3439449 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:40:19.137  INFO 3439449 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.645 seconds (JVM running for 0.994)
+2024-03-09 12:40:22.160  INFO 3439449 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:40:22.160  INFO 3439449 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:40:22.161  INFO 3439449 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 12:41:56.195  INFO 3440021 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3440021 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:41:56.197  INFO 3440021 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:41:56.503  INFO 3440021 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:41:56.507  INFO 3440021 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:41:56.507  INFO 3440021 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:41:56.535  INFO 3440021 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:41:56.535  INFO 3440021 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 316 ms
+2024-03-09 12:41:56.671  INFO 3440021 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:41:56.675  INFO 3440021 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.636 seconds (JVM running for 0.98)
+2024-03-09 12:41:59.305  INFO 3440021 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:41:59.306  INFO 3440021 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:41:59.306  INFO 3440021 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 12:44:16.103  INFO 3440497 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3440497 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:44:16.105  INFO 3440497 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:44:16.430  INFO 3440497 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:44:16.434  INFO 3440497 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:44:16.434  INFO 3440497 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:44:16.463  INFO 3440497 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:44:16.464  INFO 3440497 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 336 ms
+2024-03-09 12:44:16.595  INFO 3440497 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:44:16.599  INFO 3440497 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.657 seconds (JVM running for 1.006)
+2024-03-09 12:44:21.475  INFO 3440497 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:44:21.475  INFO 3440497 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:44:21.475  INFO 3440497 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 12:51:53.460  INFO 3441544 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3441544 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:51:53.461  INFO 3441544 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:51:53.786  INFO 3441544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:51:53.790  INFO 3441544 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:51:53.791  INFO 3441544 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:51:53.819  INFO 3441544 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:51:53.819  INFO 3441544 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 329 ms
+2024-03-09 12:51:53.946  INFO 3441544 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:51:53.950  INFO 3441544 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.658 seconds (JVM running for 1.009)
+2024-03-09 12:51:57.100  INFO 3441544 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:51:57.100  INFO 3441544 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:51:57.101  INFO 3441544 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-09 12:52:35.180  INFO 3441710 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3441710 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:52:35.181  INFO 3441710 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:52:35.440  INFO 3441710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:52:35.443  INFO 3441710 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:52:35.443  INFO 3441710 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:52:35.479  INFO 3441710 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:52:35.479  INFO 3441710 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 281 ms
+2024-03-09 12:52:35.588  INFO 3441710 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:52:35.591  INFO 3441710 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.529 seconds (JVM running for 0.67)
+2024-03-09 12:52:39.142  INFO 3441710 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-09 12:52:39.145  INFO 3441710 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-09 12:52:42.963  INFO 3441786 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3441786 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:52:42.965  INFO 3441786 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:52:43.283  INFO 3441786 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:52:43.287  INFO 3441786 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:52:43.287  INFO 3441786 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:52:43.316  INFO 3441786 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:52:43.316  INFO 3441786 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 329 ms
+2024-03-09 12:52:43.448  INFO 3441786 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:52:43.452  INFO 3441786 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.648 seconds (JVM running for 0.994)
+2024-03-09 12:52:46.870  INFO 3441786 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:52:46.870  INFO 3441786 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:52:46.871  INFO 3441786 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-09 12:53:57.471  INFO 3441990 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3441990 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:53:57.473  INFO 3441990 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:53:57.795  INFO 3441990 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:53:57.799  INFO 3441990 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:53:57.799  INFO 3441990 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:53:57.828  INFO 3441990 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:53:57.828  INFO 3441990 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 332 ms
+2024-03-09 12:53:57.958  INFO 3441990 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:53:57.961  INFO 3441990 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.658 seconds (JVM running for 1.006)
+2024-03-09 12:54:02.972  INFO 3441990 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:54:02.972  INFO 3441990 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:54:02.973  INFO 3441990 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-09 12:55:51.073  INFO 3442245 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3442245 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:55:51.074  INFO 3442245 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:55:51.392  INFO 3442245 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:55:51.396  INFO 3442245 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:55:51.397  INFO 3442245 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:55:51.427  INFO 3442245 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:55:51.427  INFO 3442245 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 330 ms
+2024-03-09 12:55:51.558  INFO 3442245 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:55:51.561  INFO 3442245 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.652 seconds (JVM running for 1.006)
+2024-03-09 12:55:53.730  INFO 3442245 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:55:53.730  INFO 3442245 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:55:53.731  INFO 3442245 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-09 12:56:25.932  INFO 3442419 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3442419 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:56:25.934  INFO 3442419 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:56:26.251  INFO 3442419 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:56:26.256  INFO 3442419 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:56:26.256  INFO 3442419 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:56:26.285  INFO 3442419 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:56:26.285  INFO 3442419 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 328 ms
+2024-03-09 12:56:26.417  INFO 3442419 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:56:26.422  INFO 3442419 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.653 seconds (JVM running for 1.001)
+2024-03-09 12:56:29.921  INFO 3442419 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:56:29.921  INFO 3442419 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:56:29.921  INFO 3442419 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 12:57:28.955  INFO 3442626 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3442626 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 12:57:28.956  INFO 3442626 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 12:57:29.277  INFO 3442626 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 12:57:29.281  INFO 3442626 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 12:57:29.281  INFO 3442626 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 12:57:29.309  INFO 3442626 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 12:57:29.310  INFO 3442626 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 326 ms
+2024-03-09 12:57:29.441  INFO 3442626 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 12:57:29.445  INFO 3442626 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.658 seconds (JVM running for 1.007)
+2024-03-09 12:57:32.562  INFO 3442626 --- [http-nio-8626-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 12:57:32.562  INFO 3442626 --- [http-nio-8626-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 12:57:32.562  INFO 3442626 --- [http-nio-8626-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 21:14:33.534  INFO 3467500 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3467500 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 21:14:33.535  INFO 3467500 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 21:14:33.783  INFO 3467500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 21:14:33.787  INFO 3467500 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 21:14:33.787  INFO 3467500 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 21:14:33.824  INFO 3467500 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 21:14:33.824  INFO 3467500 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 274 ms
+2024-03-09 21:14:33.931  INFO 3467500 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 21:14:33.934  INFO 3467500 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.516 seconds (JVM running for 0.657)
+2024-03-09 21:15:19.712  INFO 3467500 --- [http-nio-8626-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 21:15:19.712  INFO 3467500 --- [http-nio-8626-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 21:15:19.713  INFO 3467500 --- [http-nio-8626-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 21:17:58.390  INFO 3467500 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-09 21:17:58.392  INFO 3467500 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-09 21:17:58.393  INFO 3467500 --- [RMI TCP Connection(2)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
+2024-03-09 21:18:02.420  INFO 3468797 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3468797 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 21:18:02.422  INFO 3468797 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 21:18:02.738  INFO 3468797 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 21:18:02.742  INFO 3468797 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 21:18:02.742  INFO 3468797 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 21:18:02.773  INFO 3468797 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 21:18:02.773  INFO 3468797 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 326 ms
+2024-03-09 21:18:02.923  INFO 3468797 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 21:18:02.927  INFO 3468797 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.669 seconds (JVM running for 1.04)
+2024-03-09 21:18:05.905  INFO 3468797 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 21:18:05.906  INFO 3468797 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 21:18:05.906  INFO 3468797 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 21:24:09.623  INFO 3469694 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3469694 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 21:24:09.624  INFO 3469694 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 21:24:09.876  INFO 3469694 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 21:24:09.879  INFO 3469694 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 21:24:09.879  INFO 3469694 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 21:24:09.915  INFO 3469694 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 21:24:09.915  INFO 3469694 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 277 ms
+2024-03-09 21:24:10.023  INFO 3469694 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 21:24:10.027  INFO 3469694 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.52 seconds (JVM running for 0.66)
+2024-03-09 21:24:13.189  INFO 3469694 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2024-03-09 21:24:13.191  INFO 3469694 --- [RMI TCP Connection(2)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-03-09 21:24:16.927  INFO 3469775 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3469775 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 21:24:16.929  INFO 3469775 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 21:24:17.246  INFO 3469775 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 21:24:17.250  INFO 3469775 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 21:24:17.250  INFO 3469775 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 21:24:17.279  INFO 3469775 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 21:24:17.279  INFO 3469775 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 327 ms
+2024-03-09 21:24:17.414  INFO 3469775 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 21:24:17.418  INFO 3469775 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.648 seconds (JVM running for 0.993)
+2024-03-09 21:24:30.772  INFO 3469775 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 21:24:30.772  INFO 3469775 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 21:24:30.772  INFO 3469775 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 21:26:41.254  WARN 3469775 --- [http-nio-8626-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('/' (code 47)): maybe a (non-standard) comment? (not recognized as one since Feature 'ALLOW_COMMENTS' not enabled for parser); nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('/' (code 47)): maybe a (non-standard) comment? (not recognized as one since Feature 'ALLOW_COMMENTS' not enabled for parser)<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 5, column: 3]]
+2024-03-09 21:27:15.938  WARN 3469775 --- [http-nio-8626-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('<' (code 60)): was expecting comma to separate Object entries; nested exception is com.fasterxml.jackson.core.JsonParseException: Unexpected character ('<' (code 60)): was expecting comma to separate Object entries<EOL> at [Source: (org.springframework.util.StreamUtils$NonClosingInputStream); line: 5, column: 3]]
+2024-03-09 21:36:28.509  INFO 3472393 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3472393 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 21:36:28.511  INFO 3472393 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 21:36:28.828  INFO 3472393 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 21:36:28.832  INFO 3472393 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 21:36:28.832  INFO 3472393 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 21:36:28.862  INFO 3472393 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 21:36:28.862  INFO 3472393 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 328 ms
+2024-03-09 21:36:28.995  INFO 3472393 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 21:36:28.999  INFO 3472393 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.652 seconds (JVM running for 1.006)
+2024-03-09 21:36:33.317  INFO 3472393 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 21:36:33.317  INFO 3472393 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 21:36:33.318  INFO 3472393 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-09 21:37:09.254  INFO 3472583 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3472583 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 21:37:09.256  INFO 3472583 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 21:37:09.575  INFO 3472583 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 21:37:09.579  INFO 3472583 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 21:37:09.580  INFO 3472583 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 21:37:09.609  INFO 3472583 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 21:37:09.609  INFO 3472583 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 330 ms
+2024-03-09 21:37:09.742  INFO 3472583 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 21:37:09.745  INFO 3472583 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.653 seconds (JVM running for 1.005)
+2024-03-09 21:37:17.080  INFO 3472583 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 21:37:17.080  INFO 3472583 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 21:37:17.081  INFO 3472583 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-09 21:43:32.493  INFO 3473601 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3473601 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 21:43:32.495  INFO 3473601 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 21:43:32.815  INFO 3473601 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 21:43:32.819  INFO 3473601 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 21:43:32.819  INFO 3473601 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 21:43:32.848  INFO 3473601 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 21:43:32.848  INFO 3473601 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 329 ms
+2024-03-09 21:43:32.980  INFO 3473601 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 21:43:32.983  INFO 3473601 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.653 seconds (JVM running for 1.023)
+2024-03-09 21:43:38.819  INFO 3473601 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 21:43:38.819  INFO 3473601 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 21:43:38.820  INFO 3473601 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-03-09 21:53:22.963  INFO 3474903 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3474903 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 21:53:22.965  INFO 3474903 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 21:53:23.283  INFO 3474903 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 21:53:23.287  INFO 3474903 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 21:53:23.287  INFO 3474903 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 21:53:23.315  INFO 3474903 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 21:53:23.315  INFO 3474903 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 324 ms
+2024-03-09 21:53:23.443  INFO 3474903 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 21:53:23.446  INFO 3474903 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.655 seconds (JVM running for 1.008)
+2024-03-09 21:53:25.576  INFO 3474903 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 21:53:25.577  INFO 3474903 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 21:53:25.577  INFO 3474903 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-03-09 22:01:50.501  INFO 3476753 --- [main] com.orakoglu.excelreader.Application     : Starting Application using Java 1.8.0_351 on xdatux with PID 3476753 (/home/xdat/git/excelreader/target/classes started by xdat in /home/xdat/git/excelreader)
+2024-03-09 22:01:50.503  INFO 3476753 --- [main] com.orakoglu.excelreader.Application     : No active profile set, falling back to 1 default profile: "default"
+2024-03-09 22:01:50.816  INFO 3476753 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8626 (http)
+2024-03-09 22:01:50.821  INFO 3476753 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-03-09 22:01:50.821  INFO 3476753 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+2024-03-09 22:01:50.849  INFO 3476753 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-03-09 22:01:50.849  INFO 3476753 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 324 ms
+2024-03-09 22:01:50.979  INFO 3476753 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8626 (http) with context path ''
+2024-03-09 22:01:50.982  INFO 3476753 --- [main] com.orakoglu.excelreader.Application     : Started Application in 0.644 seconds (JVM running for 0.997)
+2024-03-09 22:31:48.912  INFO 3476753 --- [http-nio-8626-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-09 22:31:48.912  INFO 3476753 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-03-09 22:31:48.912  INFO 3476753 --- [http-nio-8626-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
