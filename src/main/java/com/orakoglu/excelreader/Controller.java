@@ -60,7 +60,7 @@ public class Controller {
 				sb.append(";\n");
 				sb.append("create table ");
 				sb.append(tableName);
-				sb.append(" (\n\tID bigserial primary key");
+				sb.append(" (\n\t___ID bigserial primary key");
 				for (String columnName : columnNames) {
 					sb.append(",\n\t");
 					sb.append(columnName);
@@ -146,8 +146,12 @@ public class Controller {
 		return convertedValue;
 	}
 
-	public static void __main(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception {
 		Controller controller = new Controller();
-		controller.readExcel("/home/xdat/Downloads/Secim-Sonuclari_2023_TURKIYE_MILLETVEKILI SECIMI_2023-05-31.xlsx", "MV20230531", "/home/xdat/Desktop/");
+//		controller.readExcel("/home/xdat/Downloads/Secim-Sonuclari_2023_TURKIYE_MILLETVEKILI SECIMI_2023-05-31.xlsx", "MV20230531", "/home/xdat/Desktop/");
+		controller.readExcel("/home/xdat/Downloads/ilyasköy.xlsx", "ilyaskoy", "/home/xdat/Desktop/");
+		controller.readExcel("/home/xdat/Downloads/çukurköy.xlsx", "cukurkoy", "/home/xdat/Desktop/");
+		controller.readExcel("/home/xdat/Downloads/dereköy.xlsx", "derekoy", "/home/xdat/Desktop/");
+		controller.readExcel("/home/xdat/Downloads/burhaniye.xlsx", "burhaniye", "/home/xdat/Desktop/");
 	}
 }
