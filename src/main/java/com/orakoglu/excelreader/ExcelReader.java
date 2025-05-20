@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.orakoglu.excelreader.common.Request;
+import com.orakoglu.excelreader.common.CsvRequest;
+import com.orakoglu.excelreader.common.ExcelRequest;
 
 @RestController
 public class ExcelReader {
@@ -17,19 +18,42 @@ public class ExcelReader {
 	@Autowired
 	Controller controller;
 
-	@PostMapping(value = "/", produces = MediaType.APPLICATION_JSON_VALUE)
+	@PostMapping(value = "/readexcel", produces = MediaType.APPLICATION_JSON_VALUE)
 	@ResponseBody
-	public ResponseEntity<String> home(@RequestBody Request request) {
+	public ResponseEntity<String> readexcel(@RequestBody ExcelRequest request) {
 		String _SQL = "";
 		try {
 			_SQL = controller.readExcel(request.getFilename(), request.getSchemaName(), request.getOutputDir());
-		}
-		catch (Exception e) {
-			// TODO Auto-generated catch block
+		} catch (Exception e) {
 			e.printStackTrace();
 			return new ResponseEntity<String>(e.getMessage(), HttpStatus.OK);
 		}
 
+		return new ResponseEntity<String>(_SQL, HttpStatus.OK);
+	}
+
+	@PostMapping(value = "/readcsv", produces = MediaType.APPLICATION_JSON_VALUE)
+	@ResponseBody
+	public ResponseEntity<String> readCsv(@RequestBody CsvRequest request) {
+		try {
+			controller.doReadDirectoryForDbf(request);
+		} catch (Exception e) {
+			e.printStackTrace();
+			return new ResponseEntity<String>(e.getMessage(), HttpStatus.OK);
+		}
+		return new ResponseEntity<String>("DONE", HttpStatus.OK);
+	}
+
+	@PostMapping(value = "/runsqls", produces = MediaType.APPLICATION_JSON_VALUE)
+	@ResponseBody
+	public ResponseEntity<String> runSqls(@RequestBody ExcelRequest request) {
+		String _SQL = "";
+		try {
+			_SQL = controller.readExcel(request.getFilename(), request.getSchemaName(), request.getOutputDir());
+		} catch (Exception e) {
+			e.printStackTrace();
+			return new ResponseEntity<String>(e.getMessage(), HttpStatus.OK);
+		}
 		return new ResponseEntity<String>(_SQL, HttpStatus.OK);
 	}
 

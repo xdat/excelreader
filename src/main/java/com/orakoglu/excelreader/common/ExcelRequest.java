@@ -1,6 +1,6 @@
 package com.orakoglu.excelreader.common;
 
-public class Request {
+public class ExcelRequest {
 	String filename;
 	String schemaName;
 	String outputDir;
