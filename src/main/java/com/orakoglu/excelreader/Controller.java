@@ -40,10 +40,10 @@ public class Controller {
 
 	public String readExcel(String fileName, String schemaName, String outputDir) throws IOException {
 		StringBuilder sb = new StringBuilder();
-		StopWatch watch = new StopWatch();
+//		StopWatch watch = new StopWatch();
 		try (InputStream is = new FileInputStream(fileName); ReadableWorkbook wb = new ReadableWorkbook(is)) {
 
-			watch.start();
+//			watch.start();
 
 			wb.getSheets().forEach(sheet -> {
 				String tableName = schemaName.trim().replaceAll("[\\W]|_", "_").toLowerCase().concat(".").concat(convertTo(sheet.getName().trim()).replaceAll("[\\W]|_", "_")).toLowerCase();
@@ -113,7 +113,7 @@ public class Controller {
 					e.printStackTrace();
 				}
 
-				watch.stop();
+//				watch.stop();
 
 				File file = new File(outputDir.concat(tableName).concat(".SQL"));
 				if (file.exists())
@@ -128,7 +128,7 @@ public class Controller {
 				}
 			});
 		}
-		return "done in ".concat(Long.toString(watch.getTotalTimeMillis()));
+		return "done in ";//.concat(Long.toString(watch.getTotalTimeMillis()));
 	}
 
 	private String readCsv(String fileName, CsvRequest request) throws IOException {
@@ -299,16 +299,16 @@ public class Controller {
 
 	public static void main(String[] args) throws Exception {
 		Controller controller = new Controller();
-//		controller.readExcel("/home/xdat/Downloads/Secim-Sonuclari_2023_TURKIYE_MILLETVEKILI SECIMI_2023-05-31.xlsx", "MV20230531", "/home/xdat/Desktop/");
+		controller.readExcel("/home/xdat/Desktop/Cengiz/ipek2.xlsx", "cengiz", "/home/xdat/Desktop/Cengiz/");
 
-		CsvRequest request = new CsvRequest();
-		request.setDirName("/home/xdat/Desktop/ahili/AHILI/ES2/SU");
-		request.setSchemaName("eskomdos");
-		request.setCharSet("IBM857");
-		request.setFirstLineHeader(true);
-		request.setDelimiter(',');
-		request.setTextDelimiter('"');
-		controller.doReadDirectoryForDbf(request);
+//		CsvRequest request = new CsvRequest();
+//		request.setDirName("/home/xdat/Desktop/ahili/AHILI/ES2/SU");
+//		request.setSchemaName("eskomdos");
+//		request.setCharSet("IBM857");
+//		request.setFirstLineHeader(true);
+//		request.setDelimiter(',');
+//		request.setTextDelimiter('"');
+//		controller.doReadDirectoryForDbf(request);
 
 	}
 }
