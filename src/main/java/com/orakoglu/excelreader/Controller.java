@@ -299,7 +299,7 @@ public class Controller {
 
 	public static void main(String[] args) throws Exception {
 		Controller controller = new Controller();
-		controller.readExcel("/home/xdat/Desktop/Cengiz/ipek2.xlsx", "cengiz", "/home/xdat/Desktop/Cengiz/");
+		controller.readExcel("/home/xdat/Desktop/sarki/rayic.xlsx", "rayic", "/home/xdat/Desktop/sarki/");
 
 //		CsvRequest request = new CsvRequest();
 //		request.setDirName("/home/xdat/Desktop/ahili/AHILI/ES2/SU");
