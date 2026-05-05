@@ -274,8 +274,8 @@ public class Controller {
 				File file = it.next();
 				if (!file.isDirectory()) {
 
-					if (!file.getName().toLowerCase(Application.en).contains("sudokmn"))
-						continue;
+//					if (!file.getName().toLowerCase(Application.en).contains("sudokmn"))
+//						continue;
 
 					String sourceDbf = file.getPath();
 					String targetCsvName = file.getParent().replace(request.getDirName(), "").replace("/", "_").concat("_").concat(file.getName().replace(".DBF", ".CSV")).replaceFirst("_", "");
@@ -286,6 +286,7 @@ public class Controller {
 					// System.out.println(dirName);
 					// System.out.println(targetCsvName);
 					System.out.println(targetCsv);
+					//sudo apt install ruby-dbf
 					String cmd = String.format("dbf-rb -c %s > %s", sourceDbf, targetCsv);
 //					System.out.println(cmd);
 					Process p = Runtime.getRuntime().exec(new String[] { "/bin/sh", "-c", cmd });
@@ -293,8 +294,8 @@ public class Controller {
 					IOUtils.toString(stdout, Charset.defaultCharset());
 					readCsv(targetCsv, request);
 
-//					InputStream stderr = p.getErrorStream();
-//					System.out.println(IOUtils.toString(stderr, Charset.defaultCharset()));
+					InputStream stderr = p.getErrorStream();
+					System.out.println(IOUtils.toString(stderr, Charset.defaultCharset()));
 //					break;
 				}
 			}
@@ -306,7 +307,7 @@ public class Controller {
 
 	public static void main(String[] args) throws Exception {
 		Controller controller = new Controller();
-		controller.readExcel("/home/xdat/Desktop/sarki/kapigeo.xlsx", "gac", "/home/xdat/Desktop/sarki/");
+//		controller.readExcel("/home/xdat/Desktop/sarki/kapigeo.xlsx", "gac", "/home/xdat/Desktop/sarki/");
 
 //		CsvRequest request = new CsvRequest();
 ////		request.setDirName("/home/xdat/Desktop/sarki/kapi-geo.txt");
@@ -318,14 +319,16 @@ public class Controller {
 ////		controller.doReadDirectoryForDbf(request);
 //		controller.readCsv("/home/xdat/Desktop/sarki/kapigeo.txt", request);
 
-//		CsvRequest request = new CsvRequest();
+		CsvRequest request = new CsvRequest();
 //		request.setDirName("/home/xdat/Desktop/ahili/AHILI/ES2/SU");
-//		request.setSchemaName("eskomdos");
-//		request.setCharSet("IBM857");
-//		request.setFirstLineHeader(true);
-//		request.setDelimiter(',');
-//		request.setTextDelimiter('"');
-//		controller.doReadDirectoryForDbf(request);
+		request.setDirName("/home/xdat/Downloads/kadastro/commondata/deneme");
+		
+		request.setSchemaName("gac");
+		request.setCharSet("IBM857");
+		request.setFirstLineHeader(true);
+		request.setDelimiter(',');
+		request.setTextDelimiter('"');
+		controller.doReadDirectoryForDbf(request);
 
 	}
 }
