@@ -12,6 +12,7 @@ import java.util.Arrays;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
+import java.util.concurrent.atomic.AtomicInteger;
 import java.util.logging.Logger;
 import java.util.stream.Stream;
 
@@ -128,7 +129,7 @@ public class Controller {
 				}
 			});
 		}
-		return "done in ";//.concat(Long.toString(watch.getTotalTimeMillis()));
+		return "done in ";// .concat(Long.toString(watch.getTotalTimeMillis()));
 	}
 
 	private String readCsv(String fileName, CsvRequest request) throws IOException {
@@ -139,7 +140,7 @@ public class Controller {
 			File __file = new File(fileName);
 			String outputDir = __file.getParent();
 			Scanner scanner = new Scanner(__file, request.getCharSet());
-			String tableName = "__".concat(__file.getName().toLowerCase(Application.en).replace(".csv", ""));
+			String tableName = "__".concat(__file.getName().toLowerCase(Application.en).replace(".csv", "").replace(".txt", ""));
 
 			sb.append("set statement_timeout = 0;\n");
 			sb.append("set lock_timeout = 0;\n");
@@ -172,15 +173,17 @@ public class Controller {
 			sb.append(" (");
 //			sb.append("\n\t___id bigserial primary key");
 
-			if (request.isFirstLineHeader() && scanner.hasNextLine()) {
+			if (scanner.hasNextLine()) {
 				String line = scanner.nextLine();
 				String[] values = line.split(String.valueOf(request.getDelimiter()));
+				final AtomicInteger atomicInteger = new AtomicInteger(0);
 				Arrays.asList(values).forEach(value -> {
-					String columnName = value.toLowerCase(Application.en).replace(String.valueOf(request.getTextDelimiter()), "");
+					String columnName = request.isFirstLineHeader() ? //
+							value.toLowerCase(Application.en).replace(String.valueOf(request.getTextDelimiter()), "") : //
+							"COLUMN_".concat(Integer.toString(atomicInteger.incrementAndGet()));
 					sb.append("\n\t");
 					sb.append(columnName);
 					sb.append(" varchar(1000),");
-
 					copy.append(columnName);
 					copy.append(", ");
 				});
@@ -193,6 +196,10 @@ public class Controller {
 			sb.append(copy.toString());
 			sb.append("\n");
 
+			scanner.close();
+
+			scanner = new Scanner(__file, request.getCharSet());
+
 			while (scanner.hasNextLine()) {
 				String line = scanner.nextLine();
 //				System.out.println(line);
@@ -203,8 +210,8 @@ public class Controller {
 					if (!(value == null || value.replace(String.valueOf(request.getTextDelimiter()).trim(), "").equals("")))
 						__value = value.replace(String.valueOf(request.getTextDelimiter()).trim(), "");
 
-					__value = __value.replace("'", "\\'").replace("\"", "\\\"")//
-							.replace("\\", "\\\\").replace("\n", "\\n")//
+					__value = __value.replace("\\", "\\\\").replace("'", "\\'")//
+							.replace("\"", "\\\"").replace("\n", "\\n")//
 							.replace("\r", "\\r").replace("\t", "\\t")//
 							.replace("\b", "\\b").replace("\f", "\\f");
 
@@ -299,7 +306,17 @@ public class Controller {
 
 	public static void main(String[] args) throws Exception {
 		Controller controller = new Controller();
-		controller.readExcel("/home/xdat/Desktop/sarki/rayic.xlsx", "rayic", "/home/xdat/Desktop/sarki/");
+		controller.readExcel("/home/xdat/Desktop/sarki/kapigeo.xlsx", "gac", "/home/xdat/Desktop/sarki/");
+
+//		CsvRequest request = new CsvRequest();
+////		request.setDirName("/home/xdat/Desktop/sarki/kapi-geo.txt");
+//		request.setSchemaName("gac");
+//		request.setCharSet("ISO8859-9");
+//		request.setFirstLineHeader(false);
+//		request.setDelimiter(';');
+////		request.setTextDelimiter('"');
+////		controller.doReadDirectoryForDbf(request);
+//		controller.readCsv("/home/xdat/Desktop/sarki/kapigeo.txt", request);
 
 //		CsvRequest request = new CsvRequest();
 //		request.setDirName("/home/xdat/Desktop/ahili/AHILI/ES2/SU");
