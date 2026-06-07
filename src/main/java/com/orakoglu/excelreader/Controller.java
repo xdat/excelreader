@@ -286,7 +286,7 @@ public class Controller {
 					// System.out.println(dirName);
 					// System.out.println(targetCsvName);
 					System.out.println(targetCsv);
-					//sudo apt install ruby-dbf
+					// sudo apt install ruby-dbf
 					String cmd = String.format("dbf-rb -c %s > %s", sourceDbf, targetCsv);
 //					System.out.println(cmd);
 					Process p = Runtime.getRuntime().exec(new String[] { "/bin/sh", "-c", cmd });
@@ -307,6 +307,9 @@ public class Controller {
 
 	public static void main(String[] args) throws Exception {
 		Controller controller = new Controller();
+		controller.readExcel("/home/xdat/Desktop/Cengiz/edremit.xlsx", "cengiz", "/home/xdat/Desktop/Cengiz/");
+
+//		Controller controller = new Controller();
 //		controller.readExcel("/home/xdat/Desktop/sarki/kapigeo.xlsx", "gac", "/home/xdat/Desktop/sarki/");
 
 //		CsvRequest request = new CsvRequest();
@@ -319,16 +322,16 @@ public class Controller {
 ////		controller.doReadDirectoryForDbf(request);
 //		controller.readCsv("/home/xdat/Desktop/sarki/kapigeo.txt", request);
 
-		CsvRequest request = new CsvRequest();
+//		CsvRequest request = new CsvRequest();
 //		request.setDirName("/home/xdat/Desktop/ahili/AHILI/ES2/SU");
-		request.setDirName("/home/xdat/Downloads/kadastro/commondata/deneme");
-		
-		request.setSchemaName("gac");
-		request.setCharSet("IBM857");
-		request.setFirstLineHeader(true);
-		request.setDelimiter(',');
-		request.setTextDelimiter('"');
-		controller.doReadDirectoryForDbf(request);
+//		request.setDirName("/home/xdat/Downloads/kadastro/commondata/deneme");
+
+//		request.setSchemaName("gac");
+//		request.setCharSet("IBM857");
+//		request.setFirstLineHeader(true);
+//		request.setDelimiter(',');
+//		request.setTextDelimiter('"');
+//		controller.doReadDirectoryForDbf(request);
 
 	}
 }
