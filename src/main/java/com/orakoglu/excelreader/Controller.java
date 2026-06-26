@@ -307,7 +307,7 @@ public class Controller {
 
 	public static void main(String[] args) throws Exception {
 		Controller controller = new Controller();
-		controller.readExcel("/home/xdat/Desktop/Cengiz/edremit.xlsx", "cengiz", "/home/xdat/Desktop/Cengiz/");
+		controller.readExcel("/home/xdat/Desktop/sinop/sinopsayac.xlsx", "sinop", "/home/xdat/Desktop/sinop/");
 
 //		Controller controller = new Controller();
 //		controller.readExcel("/home/xdat/Desktop/sarki/kapigeo.xlsx", "gac", "/home/xdat/Desktop/sarki/");
